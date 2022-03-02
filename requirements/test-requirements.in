@@ -1,0 +1,5 @@
+fastAPI
+pydantic
+uvicorn[standard]
+pytest
+coverage

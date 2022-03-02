@@ -1,0 +1,48 @@
+anyio==3.5.0
+    # via starlette
+asgiref==3.5.0
+    # via uvicorn
+certifi==2021.10.8
+    # via requests
+charset-normalizer==2.0.11
+    # via requests
+click==8.0.3
+    # via uvicorn
+coverage==6.3
+    # via -r requirements/requirements.in
+fastapi==0.73.0
+    # via -r requirements/requirements.in
+h11==0.13.0
+    # via uvicorn
+httptools==0.3.0
+    # via uvicorn
+idna==3.3
+    # via
+    #   anyio
+    #   requests
+pydantic==1.9.0
+    # via
+    #   -r requirements/requirements.in
+    #   fastapi
+python-dotenv==0.19.2
+    # via uvicorn
+pyyaml==6.0
+    # via uvicorn
+requests==2.27.1
+    # via -r requirements/requirements.in
+sniffio==1.2.0
+    # via anyio
+starlette==0.17.1
+    # via fastapi
+typing-extensions==4.0.1
+    # via pydantic
+urllib3==1.26.8
+    # via requests
+uvicorn[standard]==0.17.1
+    # via -r requirements/requirements.in
+uvloop==0.16.0
+    # via uvicorn
+watchgod==0.7
+    # via uvicorn
+websockets==10.1
+    # via uvicorn

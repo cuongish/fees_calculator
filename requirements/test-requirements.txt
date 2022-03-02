@@ -1,0 +1,54 @@
+anyio==3.5.0
+    # via starlette
+asgiref==3.5.0
+    # via uvicorn
+attrs==21.4.0
+    # via pytest
+click==8.0.3
+    # via uvicorn
+coverage==6.3
+    # via -r requirements/test-requirements.in
+fastapi==0.73.0
+    # via -r requirements/test-requirements.in
+h11==0.13.0
+    # via uvicorn
+httptools==0.3.0
+    # via uvicorn
+idna==3.3
+    # via anyio
+iniconfig==1.1.1
+    # via pytest
+packaging==21.3
+    # via pytest
+pluggy==1.0.0
+    # via pytest
+py==1.11.0
+    # via pytest
+pydantic==1.9.0
+    # via
+    #   -r requirements/test-requirements.in
+    #   fastapi
+pyparsing==3.0.7
+    # via packaging
+pytest==6.2.5
+    # via -r requirements/test-requirements.in
+python-dotenv==0.19.2
+    # via uvicorn
+pyyaml==6.0
+    # via uvicorn
+sniffio==1.2.0
+    # via anyio
+starlette==0.17.1
+    # via fastapi
+toml==0.10.2
+    # via pytest
+typing-extensions==4.0.1
+    # via pydantic
+uvicorn[standard]==0.17.1
+    # via -r requirements/test-requirements.in
+uvloop==0.16.0
+    # via uvicorn
+watchgod==0.7
+    # via uvicorn
+websockets==10.1
+    # via uvicorn
